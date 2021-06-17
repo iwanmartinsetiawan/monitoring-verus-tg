@@ -23,3 +23,18 @@ nano monitoring.sh
     Contoh : 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
   - <ID_TELEGRAM> ganti dengan ID chat penerima yang didapatkan dari step 3.
 
+Kemudian save and quit. Dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter.
+
+6. Sekarang seting untuk schedulenya, dengan cara masukkan command berikut :  
+```
+crontab -e
+```
+7. Tambahkan script berikut dibaris terakhir/paling bawah :  
+```
+*/5 * * * * bash /root/monitoring.sh > /root/monitoring.log 2>&1
+```
+*/5 di script diatas artinya perintah monitoring akan dijalankan per 5 menit. Silahkan bisa disesuaikan dengan kebutuhan.  
+Untuk mengetahui penulisan dan arti dari crontab, bisa mengunjungi link dibawah :  
+https://crontab.guru/
+
+8. Save and Quit, dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter. 
