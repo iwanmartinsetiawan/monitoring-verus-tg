@@ -43,6 +43,6 @@ https://crontab.guru/
 20210716 - Add Pool Address description
 
 # Support
-BTC : 19YyecXP1oowC2oNCsiKwqRdwYiS2GNvVq
-Doge : D9BxqsuKtibuzC3fE229h7UfCYQRgABsj5
-Verus : RMzEdE5bTtu45W3jfx3WH4BktDmkpeX1ca
+BTC : 19YyecXP1oowC2oNCsiKwqRdwYiS2GNvVq  
+Doge : D9BxqsuKtibuzC3fE229h7UfCYQRgABsj5  
+Verus : RMzEdE5bTtu45W3jfx3WH4BktDmkpeX1ca  
