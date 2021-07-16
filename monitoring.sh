@@ -45,6 +45,7 @@ ip_address=$(get_ip_addresses &)
 echo -e "Uptime : "$UPTIME >> $MSG_FILE
 echo -e "CPU Temp : "$board_temp" C" >> $MSG_FILE
 echo -e "IP : "$ip_address >> $MSG_FILE
+echo -e "Pool address : "$(cat $HOME_DIR/miner.log | grep "Starting on" | awk '{print $5}')"" >> $MSG_FILE
 echo -e "Hashrate : "$(tail -1 $HOME_DIR/miner.log | grep "accept" | awk '{print $7}')" kH/s" >> $MSG_FILE
 echo -e "Last share : "$(tail -1 $HOME_DIR/miner.log | grep "accept" | awk '{print $4}') >> $MSG_FILE
 # Send Notif Telegram
