@@ -38,3 +38,6 @@ Untuk mengetahui penulisan dan arti dari crontab, bisa mengunjungi link dibawah 
 https://crontab.guru/
 
 8. Save and Quit, dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter. 
+
+#Update
+20210716 - Add Pool Address description
