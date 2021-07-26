@@ -37,6 +37,9 @@ crontab -e
 Untuk mengetahui penulisan dan arti dari crontab, bisa mengunjungi link dibawah :  
 https://crontab.guru/
 
+Sesuaikan lokasi path filenya dengan folder tempat menyimpan file monitoring.sh nya. Contoh diatas lokasi file di folder
+/root
+
 8. Save and Quit, dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter. 
 
 # UPDATE
