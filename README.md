@@ -19,9 +19,9 @@ wget -L https://raw.githubusercontent.com/iwanmartinsetiawan/monitoring-verus-tg
 ```
 nano monitoring.sh
 ```
-  - <TOKEN_BOT_TELEGRAM> ganti dengan token bot yang didapatkan dari hasil step 2.  
+  - TOKEN_BOT_TELEGRAM ganti dengan token bot yang didapatkan dari hasil step 2.  
     Contoh : 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
-  - <ID_TELEGRAM> ganti dengan ID chat penerima yang didapatkan dari step 3.
+  - ID_TELEGRAM ganti dengan ID chat penerima yang didapatkan dari step 3.
 
 Kemudian save and quit. Dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter.
 
